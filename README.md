@@ -4,4 +4,4 @@ Dieses Projekt zeigt die Berechnung des Skalarprodukts und die Prüfung auf Koll
 
 ## Funktionen
 - Berechnung des Skalarprodukts zwischen zwei Vektoren
-- Prüfung, ob zwei Vektoren kollinear zueinander sind und berücksichtigung der Sonderfälls mit Nullen
+- Prüfung, ob zwei Vektoren kollinear zueinander sind unter Berücksichtigung der Sonderfälls mit Nullen
