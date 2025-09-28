@@ -7,10 +7,10 @@ public class Vektorrechnung {
         boolean vektorgrößeGültig = false;
         int vektorgröße = 0;
         while (vektorgrößeGültig == false) {
-            System.out.println("Vektorlänge eingeben:");
+            System.out.println("Vektorgröße eingeben (2 oder 3):");
             vektorgröße = scanner.nextInt();
             if (vektorgröße > 3 || vektorgröße < 2) {
-                System.out.println("ungültige Vektorlänge");
+                System.out.println("ungültige Vektorgröße");
             } else vektorgrößeGültig = true;
         }
 
