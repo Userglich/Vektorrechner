@@ -2,29 +2,29 @@ import java.util.Scanner;
 public class Vektorrechnung {
     public static void main(String[] args) {
 
-        // Einlesen der vektorlaenge und Prüfung auf gültigen Wert
+        // Einlesen der Vektorgröße und Prüfung auf gültigen Wert
         Scanner scanner = new Scanner(System.in);
-        boolean vektorlaengeGueltig = false;
-        int vektorlaenge = 0;
-        while (vektorlaengeGueltig == false) {
+        boolean vektorgrößeGültig = false;
+        int vektorgröße = 0;
+        while (vektorgrößeGültig == false) {
             System.out.println("Vektorlänge eingeben:");
-            vektorlaenge = scanner.nextInt();
-            if (vektorlaenge > 3 || vektorlaenge < 2) {
+            vektorgröße = scanner.nextInt();
+            if (vektorgröße > 3 || vektorgröße < 2) {
                 System.out.println("ungültige Vektorlänge");
-            } else vektorlaengeGueltig = true;
+            } else vektorgrößeGültig = true;
         }
 
-        double[] v1 = new double[vektorlaenge];
-        double[] v2 = new double[vektorlaenge];
+        double[] v1 = new double[vektorgröße];
+        double[] v2 = new double[vektorgröße];
 
         //Einlesen von Vektoren
         System.out.println("Ersten vektor eingeben:");
-        for (int i = 0; i<vektorlaenge; i++){
+        for (int i = 0; i<vektorgröße; i++){
             double v = scanner.nextDouble();
             v1[i] = v;
         }
         System.out.println("Zweiter vektor eingeben:");
-        for (int i = 0; i<vektorlaenge; i++){
+        for (int i = 0; i<vektorgröße; i++){
             double v = scanner.nextDouble();
             v2[i] = v;
         }
