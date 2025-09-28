@@ -35,7 +35,7 @@ public class Vektorrechnung {
         System.out.println("2. Prüfung für Kollinearität");
         int rechenoperation = scanner.nextInt();
 
-        // Ausführung der Rechenoperation und Ausgabe des Ergebnisses mithilfe der Klasse Vektoren
+        //Ausführung der Rechenoperation und Ausgabe des Ergebnisses mithilfe der Klasse Vektoren
         Vektor V1 = new Vektor(v1);
         if (rechenoperation == 1) {
             System.out.println(V1.skalarprodukt(v2));
